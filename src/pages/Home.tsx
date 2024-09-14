@@ -5,7 +5,7 @@ import "../styles/hero.css";
 import Button from "../components/Button";
 import Logo from "../assets/logo.svg";
 import "../styles/header.css";
-import "../styles/Solutions.css";
+import "../styles/solutions.css";
 import Close from "../assets/close.svg";
 import Menu from "../assets/hamburguer.svg";
 import { useState } from "react";

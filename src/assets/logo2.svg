@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="master-artboard" viewBox="0 0 207.00799560546875 242.33602905273438" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1400 980;" width="207.00799560546875px" height="242.33602905273438px" xmlns:xlink="http://www.w3.org/1999/xlink"><rect id="ee-background" x="0" y="0" width="207.00799560546875" height="242.33602905273438" style="fill: white; fill-opacity: 0; pointer-events: none;"/><g transform="matrix(1.2760417461395264, 0, 0, 1.2760417461395264, -550.6453247070312, -372.0960350036621)"><metadata id="metadata383418">
+    
+  </metadata><linearGradient spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-1163da36-e495-4c5b-bccc-920e388f929d">
+    <stop id="stop383393" stop-opacity="1" stop-color="#ffffff" offset="0%"/>
+    <stop id="stop383395" stop-opacity="1" stop-color="#000000" offset="100%"/>
+  </linearGradient><linearGradient gradientTransform="rotate(-30)" spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient3-logo-1163da36-e495-4c5b-bccc-920e388f929d">
+    <stop id="stop383398" stop-opacity="1" stop-color="#ffffff" offset="0%"/>
+    <stop id="stop383400" stop-opacity="1" stop-color="#cccccc" offset="50%"/>
+    <stop id="stop383402" stop-opacity="1" stop-color="#000000" offset="100%"/>
+  </linearGradient><g id="logo-group">
+    <image id="container" x="272" y="144" width="480" height="480" style="display: none;" transform="translate(0 0)" xlink:href=""/>
+    <g id="logo-center" transform="translate(0 0)">
+      <image id="icon_container" x="0" y="0" style="display: none;" xlink:href=""/>
+      <g id="slogan" style="font-style:normal;font-weight:400;font-size:32px;line-height:1;font-family:'Open Sans';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)"/>
+      <g id="title" style="font-style:normal;font-weight:normal;font-size:72px;line-height:1;font-family:'Brandmark Sans 30 Color';font-variant-ligatures:normal;text-align:center;text-anchor:middle" transform="translate(0 0)">
+        <g id="path383421" aria-label="^O" transform="translate(0 374.09499999999997) translate(438.425 -77.70999999999998) scale(3.75) translate(-492.34962 46.44)"> <path class="c3" d="M100.03835,75.87582c13.8252,0,19.58569,7.70459,19.58569,23.32996 c0,15.98535-6.62451,23.40198-19.58569,23.40198c-13.96924,0-19.65771-7.63257-19.65771-23.40198 C80.38063,82.7164,86.42921,75.87582,100.03835,75.87582z M114.22365,99.20578c0-13.46521-3.38428-17.92957-14.1853-17.92957 c-10.8728,0-14.25708,3.88831-14.25708,17.92957c0,13.60913,3.31226,18.00159,14.25708,18.00159 C110.2632,117.20737,114.22365,112.74301,114.22365,99.20578z" transform="translate(411.96898 -122.31582)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#aabcb8" stroke="#aabcb8"/> </g>
+       </g>
+      <image id="icon" x="0" y="0" style="display: none;" xlink:href=""/>
+    </g>
+  </g></g></svg>

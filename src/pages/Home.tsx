@@ -8,10 +8,19 @@ import "../styles/header.css";
 import "../styles/solutions.css";
 import Close from "../assets/close.svg";
 import Menu from "../assets/hamburguer.svg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  
+  useEffect (() => {
 
+    if (showMobileMenu) {
+  document.documentElement.style.overflowY = "hidden";
+    }
+  else{
+    document.documentElement.style.overflowY = "auto";
+  }
+  },[showMobileMenu]);
   return (
     <>
       <header className="container py-sm">
@@ -100,15 +109,15 @@ export default function Home() {
 
   <div className="container content">
     <p className="desktop-only">
-      Transformando beleza com tecnologia de ponta e procedimentos inovadores.
+    Onde a inovação encontra a beleza do futuro.
     </p>
 
     <h1>
-      Revolucione sua beleza com estética avançada
+    Experimente a beleza do amanhã, hoje.
     </h1>
 
     <p>
-      Na Estética Avançada, trazemos o futuro da beleza para você, com tratamentos exclusivos que combinam ciência, inovação e resultados.
+      Na estética avançada, trazemos o futuro da beleza para você, com tratamentos exclusivos que combinam ciência, inovação e resultados.
     </p>
 
     <div className="flex gap-1">
@@ -130,53 +139,50 @@ export default function Home() {
 
   <div className="solutions-grid">
     <div className="solution-item">
-      <h3>Tratamentos Faciais</h3>
-      <p>Rejuvenescimento facial, clareamento de manchas e lifting não cirúrgico com tecnologia de última geração.</p>
+      <h3>Análise Facial e Corporal com IA</h3>
+      <p>Utilizamos software de IA para escanear sua pele e corpo em 3D, oferecendo diagnósticos rápidos e precisos para tratamentos personalizados.</p>
       <ul>
-        <li>Terapia de Luz LED</li>
-        <li>Peeling Químico</li>
-        <li>Microagulhamento</li>
-        <li>Radiofrequência Facial</li>
+        <li>Escaneamento em 3D: Detecção precisa de detalhes.</li>
+        <li>Diagnósticos Personalizados: Planos sob medida</li>
+        <li>Monitoramento Contínuo: Acompanhamento de resultados.</li>
       </ul>
     </div>
 
     <div className="solution-item">
-      <h3>Procedimentos Corporais</h3>
-      <p>Modelagem corporal, redução de celulite e tratamentos para gordura localizada com técnicas não invasivas.</p>
+      <h3>Tratamento de Pele Virtual</h3>
+      <p>Simule os resultados dos tratamentos antes de realizá-los. Nosso software cria prévias visuais para você ver como ficará após o procedimento.</p>
       <ul>
-        <li>Criolipólise Avançada</li>
-        <li>Massagem Modeladora</li>
-        <li>Radiofrequência Corporal</li>
-        <li>Ultrassom de Alta Frequência</li>
+        <li>Simulação Visual: Visualize resultados antes do procedimento.</li>
+        <li>Customização Rápida: Ajuste de tratamentos em tempo real.</li>
+        <li>Comparação de Resultados: Veja antes e depois digitalmente.</li>
       </ul>
     </div>
 
     <div className="solution-item">
-      <h3>Depilação a Laser</h3>
-      <p>Depilação definitiva com tecnologia de laser de última geração, proporcionando mais conforto e segurança.</p>
+      <h3>Ajustes Capilares Digitalizados</h3>
+      <p>Nosso sistema de simulação capilar mostra como seu cabelo responderá aos tratamentos, desde o fortalecimento até o combate à queda..</p>
       <ul>
-        <li>Laser Alexandrite</li>
-        <li>Laser Diodo</li>
-        <li>Depilação em Áreas Sensíveis</li>
-        <li>Tratamento Personalizado</li>
+        <li>Simulação de Tratamentos: Resultados antes da aplicação real.</li>
+        <li>Mapeamento Capilar: Identifica áreas de perda e fortalecimento.</li>
+        <li>Planejamento Personalizado: Ajustes para cada tipo de cabelo.</li>
       </ul>
     </div>
 
     <div className="solution-item">
-      <h3>Tratamentos Capilares</h3>
-      <p>Soluções inovadoras para queda de cabelo e fortalecimento capilar, utilizando terapias regenerativas.</p>
+      <h3>Consultoria Virtual Personalizada</h3>
+      <p>Converse com nossa IA especializada, que ajuda a criar o melhor plano de cuidados, totalmente adaptado ao seu estilo de vida e necessidades.</p>
       <ul>
-        <li>Tratamento com Laser de Baixa Frequência</li>
-        <li>Plasma Rico em Plaquetas (PRP)</li>
-        <li>Microagulhamento Capilar</li>
-        <li>Terapia Capilar Personalizada</li>
+        <li>IA Especializada: Recomendações adaptadas ao seu perfil.</li>
+        <li>Acompanhamento Digital: Evolução constante dos resultados.</li>
+        <li>Consultas Online: Orientação virtual com precisão.</li>
+       
       </ul>
     </div>
   </div>
 
   <div className="cta">
     <p>Quer saber mais sobre como nossos tratamentos podem transformar você? Fale conosco agora mesmo!</p>
-    <a href="#contact" className="btn-consult">Agende uma Consulta</a>
+    <a href="#contact" className="btn-consult">Entre em contato</a>
   </div>
 </section>
 

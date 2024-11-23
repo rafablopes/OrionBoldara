@@ -1,0 +1,83 @@
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(25, 8, 102, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.contact-form:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);  
+}
+
+
+.contact-input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    resize: none; 
+    transition: border-color 0.3s ease;
+}
+
+.contact-input::placeholder {
+    color: #bbb;
+    font-style: italic;
+}
+
+/* Estilo de foco nos inputs */
+.contact-input:focus {
+    outline: none;
+    border-color: #4A90E2;  
+    background-color: #f1f8ff; 
+}
+
+/* Estilos para o grupo de campos */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilo do botão */
+button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #4A90E2;  
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #357ABD;  
+    transform: translateY(-2px);  
+}
+
+button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Responsividade: Ajustes para telas menores */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+    }
+
+    .contact-input {
+        font-size: 14px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+    }
+}

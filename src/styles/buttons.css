@@ -14,12 +14,12 @@
 
 :root {
     /* Paleta de Cores */
-    --bg-color: #f5f5f5; /* Fundo neutro */
-    --primary-color: #009ca6; /* Azul petróleo para botões e destaques */
+    --bg-color: #b4a8a8; /* Fundo neutro */
+    --primary-color: hsl(184, 100%, 33%); /* Azul petróleo para botões e destaques */
     --secondary-color: #6cba9c; /* Verde suave para contrastar com a cor primária */
     --text-color: #333333; /* Cor principal do texto */
     --second-text-color: #666666; /* Texto secundário */
-    --light-gray: #eaeaea; /* Cor de fundo para seções */
+    --light-gray: #dbcaca; /* Cor de fundo para seções */
     --light-text-color: #ffffff; /* Texto claro para botões */
 
     /* Tipografia */

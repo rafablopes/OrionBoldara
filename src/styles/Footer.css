@@ -1,0 +1,84 @@
+/* Estilo geral */
+#footer {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    color: #6c757d;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo e descrição */
+  .footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  /* Seções do footer: Empresa, Funcionalidades, Recursos */
+  .footer-sections {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre as colunas */
+    gap: 20px; /* Espaço entre as colunas */
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    flex-wrap: wrap; /* Ajusta em telas pequenas */
+  }
+  
+  .footer-column {
+    flex: 1; /* Garante que todas as colunas tenham o mesmo tamanho */
+    min-width: 150px; /* Define o tamanho mínimo */
+    text-align: left; /* Alinha o conteúdo à esquerda */
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #6c757d;
+    transition: color 0.3s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Rodapé final */
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #e9ecef;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .footer-sections {
+      flex-direction: column; /* Empilha as colunas em telas pequenas */
+      align-items: center;
+    }
+  }
+  

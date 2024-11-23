@@ -4,7 +4,7 @@ import StarOuter from "../assets/StartarOuter.svg"
 interface ITestimonialsProps {
   img: string; 
   nome: string; 
-  rating: number; 
+  rating: number; //oi
 }
 
 export default function TestimonialsCard(props: ITestimonialsProps) {

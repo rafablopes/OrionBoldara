@@ -1,10 +1,10 @@
-import Star from "../assets/star.svg"
+import Star from "../assets/Star1.svg"
 import StarOuter from "../assets/StartarOuter.svg"
 
 interface ITestimonialsProps {
   img: string; 
   nome: string; 
-  rating: number; //oi
+  rating: number; //oig
 }
 
 export default function TestimonialsCard(props: ITestimonialsProps) {
